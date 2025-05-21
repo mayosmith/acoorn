@@ -38,7 +38,7 @@ Goes great with static html, Node.js server, or within an AWS Lambda function.
 const SERVER_CONFIG = false; //set to "true" when operating on a Node.js server or within an AWS Lambda function; set to "false" when running in a client-side environment.
 const AWS_CONFIG = false; //true for AWS Lambda, false for standard node server
 const ABLOCK_PATH = './ablock/ablock.json'; 
-const BUCKET_NAME = 'acoorn-node0';
+const BUCKET_NAME = ["**BUCKET NAME HERE**"];
 const NETWORK_FILE = 'acoorn-network.json';
 
 const NETWORK_LOOKUP_ENDPOINT = ["**ENDPOINT HERE**"];
